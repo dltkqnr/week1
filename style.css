@@ -1,0 +1,28 @@
+h1 {
+    font-size: 70px
+}
+h2 {
+    word-spacing: 640px
+}
+.runner {
+    animation-name:  runner;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes runner {
+from {transform: translate(0);}
+to {transform: translate(650px);}
+}
+
+
+.slowrunner {
+    animation-name:  slowrunner;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+@keyframes slowrunner {
+from {transform: translate(0);}
+to {transform: translate(650px);}
+}
